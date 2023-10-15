@@ -1,0 +1,13 @@
+################# conf/app1.yaml #################
+test: 12345
+
+groups:
+  user: "user"
+  role: "role"
+  maner: "maner"
+server:
+  host: 0.0.0.0
+  port: 9090
+log:
+  level: debug
+  format: json

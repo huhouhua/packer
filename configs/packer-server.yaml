@@ -1,0 +1,19 @@
+minio:
+  access-key: "admin"
+  secret-key: "huhouhua"
+  endpoint: "localhost:9000"
+  is-https: false #默认false
+  max-retry: 10
+
+image-store:
+  manifests-path: "manifests/manifest.json"
+  bucket: "devops" #默认devops
+  environment: "develop"  #默认develop
+  platform: "platform"  #默认platform
+  registry:
+          default:
+            username: "xxxxx"
+            password: "xxxxx"
+webhook:
+  url: "http://localhost:5000/api/webhook/callback"
+  package-id: "74f51d89-4359-47e2-ae83-ffc48a0f6523"
